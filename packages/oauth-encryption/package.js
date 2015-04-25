@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:oauth-encryption",
   summary: "Encrypt account secrets stored in the database",
   version: '1.0.5'
 });
@@ -12,7 +13,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use("tinytest");
+  api.use("starrynight:tinytest");
   api.use("oauth-encryption");
   api.addFiles("encrypt_tests.js", ["server"]);
 });

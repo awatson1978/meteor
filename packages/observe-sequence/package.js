@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:observe-sequence",
   summary: "Observe changes to various sequence types such as arrays, cursors and objects",
   version: "1.0.6"
 });
@@ -13,7 +14,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use('tinytest');
+  api.use('clinical:tinytest');
   api.use('observe-sequence');
   api.use('underscore');
   api.use('ejson');

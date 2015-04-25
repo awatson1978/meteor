@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:callback-hook",
   summary: "Register callbacks on a hook",
   version: '1.0.3'
 });

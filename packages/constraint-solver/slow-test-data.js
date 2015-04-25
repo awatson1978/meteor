@@ -218,7 +218,7 @@ SLOW_TEST_DATA = {
       ],
       "local-test:webapp 1.1.5": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "webapp",
         "http"
       ],
@@ -237,7 +237,7 @@ SLOW_TEST_DATA = {
       ],
       "local-test:webapp-hashing 1.0.2": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "webapp-hashing"
       ],
       "webapp-hashing 1.0.2": [
@@ -256,7 +256,7 @@ SLOW_TEST_DATA = {
       ],
       "local-test:underscore-tests 1.0.2": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "underscore"
       ],
       "underscore-tests 1.0.2": [
@@ -278,7 +278,7 @@ SLOW_TEST_DATA = {
       ],
       "local-test:tracker 1.0.4": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "tracker"
       ],
       "tracker 1.0.4": [
@@ -294,13 +294,13 @@ SLOW_TEST_DATA = {
       ],
       "test-server-tests-in-console-once 1.0.2": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "underscore",
         "ejson"
       ],
       "test-in-console 1.0.4": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "underscore",
         "random",
         "ejson",
@@ -309,7 +309,7 @@ SLOW_TEST_DATA = {
       ],
       "test-in-browser 1.0.6": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "bootstrap@1.0.1",
         "underscore",
         "session",
@@ -336,7 +336,7 @@ SLOW_TEST_DATA = {
       ],
       "local-test:test-helpers 1.0.3": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "test-helpers",
         "underscore"
       ],
@@ -345,14 +345,14 @@ SLOW_TEST_DATA = {
         "underscore",
         "tracker",
         "ejson",
-        "tinytest",
+        "starrynight:tinytest",
         "random",
         "ddp",
         "jquery"
       ],
       "local-test:templating 1.0.10": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "htmljs",
         "templating",
         "underscore",
@@ -370,7 +370,7 @@ SLOW_TEST_DATA = {
       ],
       "local-test:stylus 1.0.6": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "stylus",
         "test-helpers",
         "templating"
@@ -391,7 +391,7 @@ SLOW_TEST_DATA = {
       ],
       "local-test:srp 1.0.2": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "srp",
         "underscore"
       ],
@@ -405,7 +405,7 @@ SLOW_TEST_DATA = {
       "local-test:spiderable 1.0.6": [
         "meteor",
         "spiderable",
-        "tinytest"
+        "starrynight:tinytest"
       ],
       "spiderable 1.0.6": [
         "meteor",
@@ -416,7 +416,7 @@ SLOW_TEST_DATA = {
       "local-test:spacebars 1.0.4": [
         "meteor",
         "spacebars",
-        "tinytest",
+        "starrynight:tinytest",
         "test-helpers",
         "reactive-var",
         "templating"
@@ -432,7 +432,7 @@ SLOW_TEST_DATA = {
         "meteor",
         "underscore",
         "spacebars",
-        "tinytest",
+        "starrynight:tinytest",
         "jquery",
         "test-helpers",
         "reactive-var",
@@ -448,7 +448,7 @@ SLOW_TEST_DATA = {
         "meteor",
         "underscore",
         "spacebars-compiler",
-        "tinytest",
+        "starrynight:tinytest",
         "blaze-tools",
         "coffeescript"
       ],
@@ -469,7 +469,7 @@ SLOW_TEST_DATA = {
       ],
       "local-test:session 1.0.5": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "tracker",
         "mongo",
         "session"
@@ -489,7 +489,7 @@ SLOW_TEST_DATA = {
       "local-test:routepolicy 1.0.3": [
         "meteor",
         "routepolicy",
-        "tinytest"
+        "starrynight:tinytest"
       ],
       "routepolicy 1.0.3": [
         "meteor",
@@ -503,7 +503,7 @@ SLOW_TEST_DATA = {
       ],
       "local-test:reload 1.1.2": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "reload"
       ],
       "reload 1.1.2": [
@@ -515,7 +515,7 @@ SLOW_TEST_DATA = {
       "local-test:reload-safetybelt 1.0.2": [
         "meteor",
         "reload-safetybelt",
-        "tinytest",
+        "starrynight:tinytest",
         "http",
         "webapp"
       ],
@@ -529,7 +529,7 @@ SLOW_TEST_DATA = {
       ],
       "local-test:reactive-dict 1.0.5": [
         "meteor",
-        "tinytest"
+        "starrynight:tinytest"
       ],
       "reactive-dict 1.0.5": [
         "meteor",
@@ -541,7 +541,7 @@ SLOW_TEST_DATA = {
       "local-test:random 1.0.2": [
         "meteor",
         "random",
-        "tinytest"
+        "starrynight:tinytest"
       ],
       "random 1.0.2": [
         "meteor",
@@ -553,7 +553,7 @@ SLOW_TEST_DATA = {
       "local-test:package-version-parser 3.0.0": [
         "meteor",
         "package-version-parser",
-        "tinytest"
+        "starrynight:tinytest"
       ],
       "package-version-parser 3.0.0": [
         "meteor",
@@ -568,7 +568,7 @@ SLOW_TEST_DATA = {
       ],
       "local-test:observe-sequence 1.0.4": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "observe-sequence",
         "underscore",
         "ejson"
@@ -582,7 +582,7 @@ SLOW_TEST_DATA = {
       ],
       "local-test:oauth2 1.1.2": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "random",
         "oauth2",
         "oauth",
@@ -596,7 +596,7 @@ SLOW_TEST_DATA = {
       ],
       "local-test:oauth1 1.1.3": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "random",
         "service-configuration",
         "oauth-encryption",
@@ -614,7 +614,7 @@ SLOW_TEST_DATA = {
       ],
       "local-test:oauth 1.1.3": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "random",
         "service-configuration",
         "oauth"
@@ -635,7 +635,7 @@ SLOW_TEST_DATA = {
       ],
       "local-test:oauth-encryption 1.0.2": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "oauth-encryption"
       ],
       "oauth-encryption 1.0.2": [
@@ -653,7 +653,7 @@ SLOW_TEST_DATA = {
         "meteor",
         "mongo",
         "check",
-        "tinytest",
+        "starrynight:tinytest",
         "underscore",
         "test-helpers",
         "ejson",
@@ -691,7 +691,7 @@ SLOW_TEST_DATA = {
       "local-test:minimongo 1.0.6": [
         "meteor",
         "minimongo",
-        "tinytest",
+        "starrynight:tinytest",
         "underscore",
         "ejson",
         "ordered-dict",
@@ -714,7 +714,7 @@ SLOW_TEST_DATA = {
       "local-test:minifiers 1.1.3": [
         "meteor",
         "minifiers",
-        "tinytest"
+        "starrynight:tinytest"
       ],
       "minifiers 1.1.3": [
         "meteor",
@@ -726,7 +726,7 @@ SLOW_TEST_DATA = {
       "local-test:meteor 1.1.4": [
         "meteor",
         "underscore",
-        "tinytest",
+        "starrynight:tinytest",
         "test-helpers"
       ],
       "meteor 1.1.4": [
@@ -765,7 +765,7 @@ SLOW_TEST_DATA = {
       ],
       "local-test:logging 1.0.6": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "underscore",
         "ejson",
         "logging"
@@ -777,7 +777,7 @@ SLOW_TEST_DATA = {
       ],
       "local-test:localstorage 1.0.2": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "localstorage"
       ],
       "localstorage 1.0.2": [
@@ -791,7 +791,7 @@ SLOW_TEST_DATA = {
       "local-test:less 1.0.12": [
         "meteor",
         "test-helpers",
-        "tinytest",
+        "starrynight:tinytest",
         "less",
         "templating"
       ],
@@ -805,7 +805,7 @@ SLOW_TEST_DATA = {
       ],
       "local-test:jsparse 1.0.2": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "underscore",
         "jsparse"
       ],
@@ -818,7 +818,7 @@ SLOW_TEST_DATA = {
       "js-analyze 1.0.4": [],
       "local-test:js-analyze-tests 1.0.2": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "js-analyze"
       ],
       "js-analyze-tests 1.0.2": [
@@ -856,7 +856,7 @@ SLOW_TEST_DATA = {
         "meteor",
         "htmljs",
         "html-tools",
-        "tinytest",
+        "starrynight:tinytest",
         "underscore"
       ],
       "htmljs 1.0.3": [
@@ -865,7 +865,7 @@ SLOW_TEST_DATA = {
       ],
       "local-test:html-tools 1.0.3": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "html-tools",
         "underscore",
         "htmljs",
@@ -900,7 +900,7 @@ SLOW_TEST_DATA = {
       ],
       "local-test:geojson-utils 1.0.2": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "geojson-utils"
       ],
       "geojson-utils 1.0.2": [
@@ -943,7 +943,7 @@ SLOW_TEST_DATA = {
       "local-test:email 1.0.5": [
         "meteor",
         "email",
-        "tinytest"
+        "starrynight:tinytest"
       ],
       "email 1.0.5": [
         "meteor",
@@ -953,7 +953,7 @@ SLOW_TEST_DATA = {
       "local-test:ejson 1.0.5": [
         "meteor",
         "ejson",
-        "tinytest",
+        "starrynight:tinytest",
         "underscore"
       ],
       "ejson 1.0.5": [
@@ -978,7 +978,7 @@ SLOW_TEST_DATA = {
         "mongo",
         "test-helpers",
         "underscore",
-        "tinytest",
+        "starrynight:tinytest",
         "random",
         "tracker",
         "minimongo",
@@ -1026,7 +1026,7 @@ SLOW_TEST_DATA = {
       "local-test:constraint-solver 1.0.16": [
         "meteor",
         "constraint-solver",
-        "tinytest",
+        "starrynight:tinytest",
         "minimongo",
         "package-version-parser",
         "underscore"
@@ -1043,7 +1043,7 @@ SLOW_TEST_DATA = {
       "local-test:coffeescript 1.0.5": [
         "meteor",
         "coffeescript",
-        "tinytest",
+        "starrynight:tinytest",
         "coffeescript-test-helper"
       ],
       "coffeescript 1.0.5": [
@@ -1059,7 +1059,7 @@ SLOW_TEST_DATA = {
       "local-test:check 1.0.3": [
         "meteor",
         "check",
-        "tinytest",
+        "starrynight:tinytest",
         "underscore",
         "ejson"
       ],
@@ -1074,7 +1074,7 @@ SLOW_TEST_DATA = {
       ],
       "local-test:browser-policy 1.0.3": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "browser-policy",
         "ejson"
       ],
@@ -1109,7 +1109,7 @@ SLOW_TEST_DATA = {
       ],
       "local-test:blaze 2.0.4": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "jquery",
         "blaze",
         "test-helpers",
@@ -1130,7 +1130,7 @@ SLOW_TEST_DATA = {
       "local-test:blaze-tools 1.0.2": [
         "meteor",
         "blaze-tools",
-        "tinytest",
+        "starrynight:tinytest",
         "underscore",
         "html-tools"
       ],
@@ -1141,7 +1141,7 @@ SLOW_TEST_DATA = {
       ],
       "local-test:binary-heap 1.0.2": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "binary-heap"
       ],
       "binary-heap 1.0.2": [
@@ -1152,7 +1152,7 @@ SLOW_TEST_DATA = {
       "local-test:base64 1.0.2": [
         "meteor",
         "base64",
-        "tinytest",
+        "starrynight:tinytest",
         "underscore",
         "ejson"
       ],
@@ -1185,7 +1185,7 @@ SLOW_TEST_DATA = {
       ],
       "local-test:appcache 1.0.3": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "appcache",
         "webapp",
         "http",
@@ -1214,7 +1214,7 @@ SLOW_TEST_DATA = {
       "local-test:accounts-ui-unstyled 1.1.5": [
         "meteor",
         "accounts-ui-unstyled",
-        "tinytest"
+        "starrynight:tinytest"
       ],
       "accounts-ui-unstyled 1.1.5": [
         "meteor",
@@ -1238,7 +1238,7 @@ SLOW_TEST_DATA = {
       "local-test:accounts-password 1.0.5": [
         "meteor",
         "accounts-password",
-        "tinytest",
+        "starrynight:tinytest",
         "test-helpers",
         "tracker",
         "accounts-base",
@@ -1315,7 +1315,7 @@ SLOW_TEST_DATA = {
       "local-test:accounts-base 1.1.3": [
         "meteor",
         "accounts-base",
-        "tinytest",
+        "starrynight:tinytest",
         "random",
         "test-helpers",
         "oauth-encryption"

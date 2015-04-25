@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:reactive-dict",
   summary: "Reactive dictionary",
   version: '1.1.0'
 });
@@ -13,7 +14,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use('tinytest');
+  api.use('clinical:tinytest');
   api.use('reactive-dict');
   api.addFiles('reactive-dict-tests.js');
 });

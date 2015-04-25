@@ -8,6 +8,7 @@
 // minutiae.
 
 Package.describe({
+  name: "starrynight:mongo",
   summary: "Adaptor for using MongoDB and Minimongo over DDP",
   version: '1.1.0'
 });
@@ -70,7 +71,7 @@ Package.onUse(function (api) {
 Package.onTest(function (api) {
   api.use('mongo');
   api.use('check');
-  api.use(['tinytest', 'underscore', 'test-helpers', 'ejson', 'random',
+  api.use(['clinical:tinytest', 'underscore', 'test-helpers', 'ejson', 'random',
            'ddp', 'base64']);
   // XXX test order dependency: the allow_tests "partial allow" test
   // fails if it is run before mongo_livedata_tests.

@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:spacebars-compiler",
   summary: "Compiler for Spacebars template language",
   version: '1.0.6'
 });
@@ -24,7 +25,7 @@ Package.onUse(function (api) {
 Package.onTest(function (api) {
   api.use('underscore');
   api.use('spacebars-compiler');
-  api.use('tinytest');
+  api.use('clinical:tinytest');
   api.use('blaze-tools');
   api.use('coffeescript');
   api.addFiles('spacebars_tests.js');

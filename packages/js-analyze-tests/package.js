@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:js-analyze-tests",
   summary: "Tests for JavaScript code analysis for Meteor",
   version: "1.0.3"
 });
@@ -7,7 +8,7 @@ Package.describe({
 // 'js-analyze' as a isopack and then load it via `isopack.load` without
 // any dependencies.
 Package.onTest(function (api) {
-  api.use('tinytest');
+  api.use('clinical:tinytest');
   api.use('js-analyze');
   api.addFiles('js_analyze_tests.js', 'server');
 });

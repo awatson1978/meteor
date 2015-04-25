@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:binary-heap",
   summary: "Binary Heap datastructure implementation",
   version: '1.0.3'
 });
@@ -12,7 +13,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use('tinytest');
+  api.use('clinical:tinytest');
   api.use('binary-heap');
   api.addFiles('binary-heap-tests.js');
 });

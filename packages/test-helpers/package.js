@@ -1,10 +1,11 @@
 Package.describe({
+  name: "starrynight:test-helpers",
   summary: "Utility functions for tests",
   version: '1.0.4'
 });
 
 Package.onUse(function (api) {
-  api.use(['underscore', 'tracker', 'ejson', 'tinytest', 'random']);
+  api.use(['underscore', 'tracker', 'ejson', 'clinical:tinytest', 'random']);
   api.use(['jquery'], 'client');
 
   // XXX for connection.js. Not sure this really belongs in
@@ -37,7 +38,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use('tinytest');
+  api.use('clinical:tinytest');
   api.use(['test-helpers', 'underscore']);
   api.addFiles('try_all_permutations_test.js', 'client');
   api.addFiles('seeded_random_test.js');

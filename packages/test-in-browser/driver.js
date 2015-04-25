@@ -36,7 +36,7 @@ var topLevelGroupsDep = new Tracker.Dependency;
 var resultTree = [];
 
 
-Session.setDefault("groupPath", ["tinytest"]);
+Session.setDefault("groupPath", ["starrynight:tinytest"]);
 Session.set("rerunScheduled", false);
 
 Meteor.startup(function () {

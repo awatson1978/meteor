@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:webapp",
   summary: "Serves a Meteor app over HTTP",
   version: '1.2.0'
 });
@@ -36,7 +37,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use(['tinytest', 'webapp', 'http']);
+  api.use(['clinical:tinytest', 'webapp', 'http']);
   api.addFiles('webapp_tests.js', 'server');
   api.addFiles('webapp_client_tests.js', 'client');
 });

@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:accounts-meetup",
   summary: "Login service for Meetup accounts",
   version: "1.0.4"
 });

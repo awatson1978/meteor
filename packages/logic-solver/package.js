@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:logic-solver",
   summary: "General satisfiability solver for logic problems",
   version: '2.0.0'
 });
@@ -14,7 +15,7 @@ Package.on_use(function (api) {
 });
 
 Package.on_test(function (api) {
-  api.use('tinytest');
+  api.use('clinical:tinytest');
   api.use('logic-solver');
 
   // logic-solver is totally meant for the client too, but not old

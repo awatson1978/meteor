@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:test-in-browser",
   summary: "Run tests interactively in the browser",
   version: '1.0.7',
   documentation: null
@@ -7,7 +8,7 @@ Package.describe({
 Package.onUse(function (api) {
   // XXX this should go away, and there should be a clean interface
   // that tinytest and the driver both implement?
-  api.use('tinytest');
+  api.use('clinical:tinytest');
   api.use('bootstrap@1.0.1');
   api.use('underscore');
 

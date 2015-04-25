@@ -233,5 +233,5 @@ Meteor.startup(function () {
       xunit('</testsuite>');
       logMagic('state', 'done');
     },
-    ["tinytest"]);
+    ["starrynight:tinytest"]);
 });

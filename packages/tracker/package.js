@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:tracker",
   summary: "Dependency tracker to allow reactive callbacks",
   version: '1.0.7'
 });
@@ -11,7 +12,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use('tinytest');
+  api.use('clinical:tinytest');
   api.use('test-helpers');
   api.use('tracker');
   api.addFiles('tracker_tests.js', 'client');

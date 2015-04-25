@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:oauth",
   summary: "Common code for OAuth-based services",
   version: "1.1.4"
 });
@@ -38,7 +39,7 @@ Package.onUse(function (api) {
 
 
 Package.onTest(function (api) {
-  api.use('tinytest');
+  api.use('clinical:tinytest');
   api.use('random');
   api.use('service-configuration', 'server');
   api.use('oauth', 'server');
@@ -48,4 +49,3 @@ Package.onTest(function (api) {
 Cordova.depends({
   'org.apache.cordova.inappbrowser': '0.6.0'
 });
-

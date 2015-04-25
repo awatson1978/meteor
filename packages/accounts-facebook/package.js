@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:accounts-facebook",
   summary: "Login service for Facebook accounts",
   version: "1.0.4"
 });

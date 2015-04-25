@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:accounts-ui",
   summary: "Simple templates to add login widgets to an app",
   version: "1.1.5"
 });

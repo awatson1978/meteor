@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:ddp-common",
   summary: "Code shared beween ddp-client and ddp-server",
   version: '1.2.0'
 });

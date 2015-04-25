@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:session",
   summary: "Session variable",
   version: '1.1.0'
 });
@@ -16,7 +17,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use('tinytest');
+  api.use('clinical:tinytest');
   api.use('session', 'client');
   api.use('tracker');
   api.use('mongo');

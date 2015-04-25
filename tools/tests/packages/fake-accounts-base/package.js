@@ -12,7 +12,7 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function(api) {
-  api.use('tinytest');
+  api.use('clinical:tinytest');
   api.use('accounts-base');
   api.addFiles('fake-accounts-base-tests.js');
 });

@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:disable-oplog",
   summary: "Disables oplog tailing",
   version: '1.0.3'
 });

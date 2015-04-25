@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:accounts-github",
   summary: "Login service for Github accounts",
   version: "1.0.4"
 });

@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:accounts-oauth",
   summary: "Common code for OAuth-based login services",
   version: "1.1.5"
 });

@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:appcache",
   summary: "Enable the application cache in the browser",
   version: "1.0.4"
 });
@@ -14,7 +15,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use('tinytest');
+  api.use('clinical:tinytest');
   api.use('appcache');
   api.use('http', 'client');
   api.use('underscore', 'client');

@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:insecure",
   summary: "Allow all database writes by default",
   version: '1.0.3'
 });

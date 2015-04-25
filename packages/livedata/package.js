@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:livedata",
   summary: "Moved to the 'ddp' package",
   version: '1.0.13'
 });

@@ -7,6 +7,7 @@
 var path = Npm.require('path');
 
 Package.describe({
+  name: "starrynight:code-prettify",
   summary: "Syntax highlighting of code, from Google",
   version: "1.0.3"
 });

@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:handlebars",
   summary: "Deprecated",
   version: '1.0.3'
 });

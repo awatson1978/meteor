@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:accounts-google",
   summary: "Login service for Google accounts",
   version: "1.0.4"
 });

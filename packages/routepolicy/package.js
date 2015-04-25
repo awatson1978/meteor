@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:routepolicy",
   summary: "route policy declarations",
   version: '1.0.5'
 });
@@ -14,6 +15,6 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use(['routepolicy', 'tinytest']);
+  api.use(['routepolicy', 'clinical:tinytest']);
   api.addFiles(['routepolicy_tests.js'], 'server');
 });

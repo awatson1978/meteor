@@ -364,7 +364,7 @@ TestCase = function (name, func) {
     return s.replace(/^\s*|\s*$/g, ""); // trim
   });
   self.shortName = nameParts.pop();
-  nameParts.unshift("tinytest");
+  nameParts.unshift("starrynight:tinytest");
   self.groupPath = nameParts;
 };
 

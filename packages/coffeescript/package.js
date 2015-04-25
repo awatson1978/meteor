@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:coffeescript",
   summary: "Javascript dialect with fewer braces and semicolons",
   version: "1.0.6"
 });
@@ -13,7 +14,7 @@ Package.registerBuildPlugin({
 });
 
 Package.onTest(function (api) {
-  api.use(['coffeescript', 'tinytest']);
+  api.use(['coffeescript', 'clinical:tinytest']);
   api.use(['coffeescript-test-helper'], ['client', 'server']);
   api.addFiles('bare_test_setup.coffee', ['client'], {bare: true});
   api.addFiles('bare_tests.js', ['client']);

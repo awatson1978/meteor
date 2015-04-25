@@ -45,7 +45,7 @@ rest of this section will explain the specific API commands in greater detail.
     Package.onTest(function (api) {
       // Sets up a dependency on this package
       api.use('username:package-name');
-      // Allows you to use the 'tinytest' framework
+      // Allows you to use the 'clinical:tinytest' framework
       api.use('tinytest@1.0.0');
       // Specify the source code for the package tests
       api.addFiles('email_tests.js', 'server');

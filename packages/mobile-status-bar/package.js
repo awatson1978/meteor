@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:mobile-status-bar",
   summary: "Good defaults for the mobile status bar",
   version: "1.0.3"
 });

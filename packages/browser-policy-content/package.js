@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:browser-policy-content",
   summary: "Configure content security policies",
   version: "1.0.4"
 });

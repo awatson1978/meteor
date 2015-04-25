@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:package-version-parser",
   summary: "Parses Meteor Smart Package version strings",
   version: "3.0.3"
 });
@@ -12,6 +13,6 @@ Package.onUse(function (api) {
 
 Package.onTest(function (api) {
   api.use('package-version-parser');
-  api.use(['tinytest']);
+  api.use(['clinical:tinytest']);
   api.addFiles('package-version-parser-tests.js', 'server');
 });

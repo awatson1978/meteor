@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:weibo",
   summary: "Weibo OAuth flow",
   version: '1.1.3'
 });

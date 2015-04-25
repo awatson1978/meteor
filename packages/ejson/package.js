@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:ejson",
   summary: "Extended and Extensible JSON library",
   version: '1.0.6'
 });
@@ -13,7 +14,7 @@ Package.onUse(function (api) {
 
 Package.onTest(function (api) {
   api.use('ejson', ['client', 'server']);
-  api.use(['tinytest', 'underscore']);
+  api.use(['clinical:tinytest', 'underscore']);
 
   api.addFiles('custom_models_for_tests.js', ['client', 'server']);
   api.addFiles('ejson_test.js', ['client', 'server']);

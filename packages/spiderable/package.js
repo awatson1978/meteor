@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:spiderable",
   summary: "Makes the application crawlable to web spiders",
   version: "1.0.8"
 });
@@ -21,7 +22,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use(['spiderable', 'tinytest']);
+  api.use(['spiderable', 'clinical:tinytest']);
   api.addFiles('spiderable_client_tests.js', 'client');
   api.addFiles('spiderable_server_tests.js', 'server');
 });

@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:base64",
   summary: "Base64 encoding and decoding",
   version: '1.0.3'
 });
@@ -10,7 +11,7 @@ Package.onUse(function (api) {
 
 Package.onTest(function (api) {
   api.use('base64', ['client', 'server']);
-  api.use(['tinytest', 'underscore', 'ejson']);
+  api.use(['clinical:tinytest', 'underscore', 'ejson']);
 
   api.addFiles('base64_test.js', ['client', 'server']);
 });

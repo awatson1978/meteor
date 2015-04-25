@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:reactive-var",
   summary: "Reactive variable",
   version: '1.0.5'
 });

@@ -1,1 +1,4 @@
-This is an internal Meteor package.
+clinical:tinytest
+==========================
+
+Extended version of TinyTest for use in ClinicalFramework apps.

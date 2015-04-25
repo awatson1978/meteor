@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:ddp-server",
   summary: "Meteor's latency-compensated distributed data server",
   version: '1.2.0'
 });
@@ -55,7 +56,7 @@ Package.onTest(function (api) {
   api.use('livedata', ['client', 'server']);
   api.use('mongo', ['client', 'server']);
   api.use('test-helpers', ['client', 'server']);
-  api.use(['underscore', 'tinytest', 'random', 'tracker', 'minimongo', 'reactive-var']);
+  api.use(['underscore', 'clinical:tinytest', 'random', 'tracker', 'minimongo', 'reactive-var']);
 
   api.addFiles('livedata_server_tests.js', 'server');
   api.addFiles('session_view_tests.js', ['server']);

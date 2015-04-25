@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:browser-policy-framing",
   summary: "Restrict which websites can frame your app",
   version: "1.0.4"
 });

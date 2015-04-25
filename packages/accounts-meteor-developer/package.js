@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:accounts-meteor-developer",
   summary: "Login service for Meteor developer accounts",
   version: "1.0.4"
 });

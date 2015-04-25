@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:id-map",
   summary: "Dictionary data structure allowing non-string keys",
   version: '1.0.3'
 });

@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:github",
   summary: "Github OAuth flow",
   version: "1.1.3"
 });

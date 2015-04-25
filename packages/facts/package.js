@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:facts",
   summary: "Publish internal app statistics",
   version: '1.0.4'
 });

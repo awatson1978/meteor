@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:meteor-developer",
   summary: "Meteor developer accounts OAuth flow",
   version: "1.1.3"
 });

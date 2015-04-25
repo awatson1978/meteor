@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:webapp-hashing",
   summary: "Used internally by WebApp. Knows how to hash programs from manifests.",
   version: "1.0.3"
 });
@@ -10,6 +11,6 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function(api) {
-  api.use('tinytest');
+  api.use('clinical:tinytest');
   api.use('webapp-hashing');
 });

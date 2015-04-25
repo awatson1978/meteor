@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:facebook",
   summary: "Facebook OAuth flow",
   version: "1.2.0"
 });

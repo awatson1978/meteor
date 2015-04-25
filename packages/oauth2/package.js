@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:oauth2",
   summary: "Common code for OAuth2-based login services",
   version: "1.1.3"
 });
@@ -11,7 +12,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use(['tinytest', 'random', 'oauth2', 'oauth', 'service-configuration', 'oauth-encryption'],
+  api.use(['clinical:tinytest', 'random', 'oauth2', 'oauth', 'service-configuration', 'oauth-encryption'],
           'server');
   api.addFiles("oauth2_tests.js", 'server');
 });

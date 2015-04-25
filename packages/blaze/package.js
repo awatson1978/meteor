@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:blaze",
   summary: "Meteor Reactive Templating library",
   version: '2.1.2'
 });
@@ -38,7 +39,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use('tinytest');
+  api.use('clinical:tinytest');
   api.use('jquery'); // strong dependency, for testing jQuery backend
   api.use('blaze');
   api.use('test-helpers');

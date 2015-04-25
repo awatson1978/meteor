@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:sha",
   summary: "SHA256 implementation",
   version: "1.0.3"
 });

@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:accounts-ui-unstyled",
   summary: "Unstyled version of login widgets",
   version: "1.1.7"
 });
@@ -34,6 +35,6 @@ Package.onUse(function (api) {
 
 Package.onTest(function (api) {
   api.use('accounts-ui-unstyled');
-  api.use('tinytest');
+  api.use('clinical:tinytest');
   api.addFiles('accounts_ui_tests.js', 'client');
 });

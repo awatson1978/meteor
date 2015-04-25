@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:localstorage",
   summary: "Simulates local storage on IE 6,7 using userData",
   version: "1.0.3"
 });
@@ -11,7 +12,7 @@ Package.onUse(function (api) {
 
 Package.onTest(function (api) {
   api.use('localstorage', 'client');
-  api.use('tinytest');
+  api.use('clinical:tinytest');
 
   api.addFiles('localstorage_tests.js', 'client');
 });

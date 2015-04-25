@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:random",
   summary: "Random number generator and utilities",
   version: '1.0.3'
 });
@@ -12,6 +13,6 @@ Package.onUse(function (api) {
 
 Package.onTest(function(api) {
   api.use('random');
-  api.use('tinytest');
+  api.use('clinical:tinytest');
   api.addFiles('random_tests.js', ['client', 'server']);
 });

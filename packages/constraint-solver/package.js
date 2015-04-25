@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:constraint-solver",
   summary: "Given the set of the constraints, picks a satisfying configuration",
   version: "1.0.19"
 });
@@ -23,7 +24,7 @@ Package.onUse(function (api) {
 
 Package.onTest(function (api) {
   api.use('constraint-solver');
-  api.use(['tinytest', 'minimongo', 'package-version-parser']);
+  api.use(['clinical:tinytest', 'minimongo', 'package-version-parser']);
   api.use('underscore');
 
   // Only test the package on the server.  Mainly because of

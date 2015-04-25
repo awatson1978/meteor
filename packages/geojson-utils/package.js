@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:geojson-utils",
   summary: 'GeoJSON utility functions (from https://github.com/maxogden/geojson-js-utils)',
   version: '1.0.3'
 });
@@ -9,7 +10,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use('tinytest');
+  api.use('clinical:tinytest');
   api.use('geojson-utils');
   api.addFiles(['geojson-utils.tests.js'], 'client');
 });

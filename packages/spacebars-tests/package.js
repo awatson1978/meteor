@@ -8,7 +8,7 @@ Package.describe({
 Package.onTest(function (api) {
   api.use('underscore');
   api.use('spacebars');
-  api.use('tinytest');
+  api.use('clinical:tinytest');
   api.use('jquery');
   api.use('test-helpers');
   api.use('reactive-var');

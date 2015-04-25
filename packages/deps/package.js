@@ -1,6 +1,7 @@
 // XXX rename package?
 
 Package.describe({
+  name: "starrynight:deps",
   summary: "Deprecated: Use the 'tracker' package instead.",
   version: '1.0.7'
 });

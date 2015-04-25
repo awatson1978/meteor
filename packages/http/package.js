@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:http",
   summary: "Make HTTP calls to remote servers",
   version: '1.1.0'
 });
@@ -22,7 +23,7 @@ Package.onTest(function (api) {
   api.use('random');
   api.use('jquery', 'client');
   api.use('http', ['client', 'server']);
-  api.use('tinytest');
+  api.use('clinical:tinytest');
   api.use('test-helpers', ['client', 'server']);
 
   api.addFiles('test_responder.js', 'server');

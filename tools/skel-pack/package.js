@@ -16,7 +16,7 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function(api) {
-  api.use('tinytest');
+  api.use('clinical:tinytest');
   api.use('~name~');
   api.addFiles('~fs-name~-tests.js');
 });

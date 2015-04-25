@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:accounts-password",
   summary: "Password support for accounts",
   version: "1.1.1"
 });
@@ -23,7 +24,7 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function(api) {
-  api.use(['accounts-password', 'tinytest', 'test-helpers', 'tracker',
+  api.use(['accounts-password', 'clinical:tinytest', 'test-helpers', 'tracker',
            'accounts-base', 'random', 'email', 'underscore', 'check',
            'ddp']);
   api.addFiles('password_tests_setup.js', 'server');

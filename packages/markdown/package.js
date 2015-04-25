@@ -1,6 +1,7 @@
 // Source: https://github.com/coreyti/showdown
 
 Package.describe({
+  name: "starrynight:markdown",
   summary: "Markdown-to-HTML processor",
   version: "1.0.4"
 });

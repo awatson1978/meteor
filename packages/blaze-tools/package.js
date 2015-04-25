@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:blaze-tool",
   summary: "Compile-time tools for Blaze",
   version: '1.0.3'
 });
@@ -16,7 +17,7 @@ Package.onUse(function (api) {
 
 Package.onTest(function (api) {
   api.use('blaze-tools');
-  api.use('tinytest');
+  api.use('clinical:tinytest');
   api.use('underscore');
   api.use('html-tools');
 

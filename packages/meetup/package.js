@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:meetup",
   summary: "Meetup OAuth flow",
   version: "1.1.3"
 });

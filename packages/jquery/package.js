@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:jquery",
   summary: "Manipulate the DOM using CSS selectors",
 
   // XXX WHOOPS!  We accidentally published jquery 1.11.2 as 1.11.3, because we

@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:accounts-twitter",
   summary: "Login service for Twitter accounts",
   version: "1.0.4"
 });

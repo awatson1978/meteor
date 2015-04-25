@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:ddp-client",
   summary: "Meteor's latency-compensated distributed data client",
   version: '1.2.0'
 });
@@ -44,7 +45,7 @@ Package.onTest(function (api) {
   api.use('livedata', ['client', 'server']);
   api.use('mongo', ['client', 'server']);
   api.use('test-helpers', ['client', 'server']);
-  api.use(['underscore', 'tinytest', 'random', 'tracker', 'minimongo', 'reactive-var']);
+  api.use(['underscore', 'clinical:tinytest', 'random', 'tracker', 'minimongo', 'reactive-var']);
 
   api.addFiles('stub_stream.js');
   api.addFiles('livedata_connection_tests.js', ['client', 'server']);

@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:fastclick",
   summary: "Faster touch events on mobile",
   version: '1.0.3'
 });

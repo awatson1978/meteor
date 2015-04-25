@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:email",
   summary: "Send email messages",
   version: "1.0.6"
 });
@@ -19,6 +20,6 @@ Package.onUse(function (api) {
 
 Package.onTest(function (api) {
   api.use('email', 'server');
-  api.use('tinytest');
+  api.use('clinical:tinytest');
   api.addFiles('email_tests.js', 'server');
 });

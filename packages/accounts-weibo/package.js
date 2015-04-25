@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:accounts-weibo",
   summary: "Login service for Sina Weibo accounts",
   version: "1.0.4"
 });

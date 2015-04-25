@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:browser-policy-common",
   summary: "Common code for browser-policy packages",
   version: "1.0.3"
 });

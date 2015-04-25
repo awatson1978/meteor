@@ -3,6 +3,7 @@
 // rebuilt with the new changes.
 
 Package.describe({
+  name: "starrynight:js-analyze",
   summary: "JavaScript code analysis for Meteor",
   version: '1.0.5'
 });

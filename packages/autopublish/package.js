@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:autopublish",
   summary: "Publish the entire database to all clients",
   version: '1.0.3'
 });

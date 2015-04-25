@@ -5,7 +5,7 @@ blaze-tools@1.0.3
 boilerplate-generator@1.0.3
 callback-hook@1.0.3
 check@1.0.5
-clinical:tinytest@1.1.1
+clinical:tinytest@1.1.6
 ddp@1.2.0
 ddp-client@1.2.0
 ddp-common@1.2.0

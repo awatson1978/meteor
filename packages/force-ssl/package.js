@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:force-ssl",
   summary: "Require this application to use HTTPS",
   version: "1.0.4"
 });

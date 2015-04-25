@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:retry",
   summary: "Retry logic with exponential backoff",
   version: '1.0.3'
 });

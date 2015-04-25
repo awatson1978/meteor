@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:twitter",
   summary: "Twitter OAuth flow",
   version: '1.1.4'
 });

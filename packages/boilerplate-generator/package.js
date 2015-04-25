@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:boilerplate-generator",
   summary: "Generates the boilerplate html from program's manifest",
   version: '1.0.3'
 });

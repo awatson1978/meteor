@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:package-stats-opt-out",
   summary: "Opt out of sending package stats",
   version: '1.0.3'
 });

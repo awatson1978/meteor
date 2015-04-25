@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:minimongo",
   summary: "Meteor's client-side datastore: a port of MongoDB to Javascript",
   version: '1.0.8'
 });
@@ -36,7 +37,7 @@ Package.onUse(function (api) {
 Package.onTest(function (api) {
   api.use('minimongo', ['client', 'server']);
   api.use('test-helpers', 'client');
-  api.use(['tinytest', 'underscore', 'ejson', 'ordered-dict',
+  api.use(['clinical:tinytest', 'underscore', 'ejson', 'ordered-dict',
            'random', 'tracker', 'reactive-var']);
   api.addFiles('minimongo_tests.js', 'client');
   api.addFiles('wrap_transform_tests.js');

@@ -4,6 +4,7 @@
 // databases to be upgraded from SRP to bcrypt.
 
 Package.describe({
+  name: "starrynight:srp",
   summary: "Library for Secure Remote Password (SRP) exchanges",
   version: "1.0.3"
 });
@@ -17,7 +18,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use('tinytest');
+  api.use('clinical:tinytest');
   api.use('srp', ['client', 'server']);
   api.use('underscore');
   api.addFiles(['srp_tests.js'], ['client', 'server']);

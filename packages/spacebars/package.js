@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:spacebars",
   summary: "Handlebars-like template language for Meteor",
   version: '1.0.6'
 });
@@ -25,7 +26,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use(["spacebars", "tinytest", "test-helpers", "reactive-var"]);
+  api.use(["spacebars", "starrynight:tinytest", "test-helpers", "reactive-var"]);
   api.use("templating", "client");
   api.addFiles(["dynamic_tests.html", "dynamic_tests.js"], "client");
 });

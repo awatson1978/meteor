@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:templating",  
   summary: "Allows templates to be defined in .html files",
   version: '1.1.1'
 });
@@ -41,7 +42,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use('tinytest');
+  api.use('clinical:tinytest');
   api.use('htmljs');
   api.use('templating');
   api.use('underscore');

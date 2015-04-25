@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:less",
   summary: "The dynamic stylesheet language",
   version: "1.0.14"
 });
@@ -16,7 +17,7 @@ Package.registerBuildPlugin({
 });
 
 Package.onTest(function (api) {
-  api.use(['test-helpers', 'tinytest', 'less', 'templating']);
+  api.use(['test-helpers', 'clinical:tinytest', 'less', 'templating']);
   api.addFiles(['less_tests.less', 'less_tests.js', 'less_tests.html',
                  'less_tests_empty.less'],
                 'client');

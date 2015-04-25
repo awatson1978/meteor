@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:oauth1",
   summary: "Common code for OAuth1-based login services",
   version: "1.1.4"
 });
@@ -20,7 +21,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use('tinytest');
+  api.use('clinical:tinytest');
   api.use('random');
   api.use('service-configuration', 'server');
   api.use('oauth-encryption', 'server');

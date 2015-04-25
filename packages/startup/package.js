@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:startup",
   summary: "Deprecated package (now empty)",
   version: "1.0.3"
 });

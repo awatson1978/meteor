@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:accounts-base",
   summary: "A user account system",
   version: "1.2.0"
 });
@@ -51,7 +52,7 @@ Package.onUse(function (api) {
 
 Package.onTest(function (api) {
   api.use('accounts-base');
-  api.use('tinytest');
+  api.use('clinical:tinytest');
   api.use('random');
   api.use('test-helpers');
   api.use('oauth-encryption');

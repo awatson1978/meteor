@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:underscore",
   summary: "Collection of small helpers: _.map, _.each, ...",
   version: '1.0.3'
 });

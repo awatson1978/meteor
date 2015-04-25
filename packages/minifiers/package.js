@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:minifiers",
   summary: "JavaScript and CSS minifiers",
   version: "1.1.5"
 });
@@ -23,7 +24,7 @@ Package.onUse(function (api) {
 
 Package.onTest(function (api) {
   api.use('minifiers', 'server');
-  api.use('tinytest');
+  api.use('clinical:tinytest');
 
   api.addFiles([
     'beautify-tests.js',

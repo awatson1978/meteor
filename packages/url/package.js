@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:url",
   summary: "Utility code for constructing URLs",
   version: "1.0.4"
 });

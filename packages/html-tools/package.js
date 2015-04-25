@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:html-tools",
   summary: "Standards-compliant HTML tools",
   version: '1.0.4'
 });
@@ -18,7 +19,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use('tinytest');
+  api.use('clinical:tinytest');
   api.use('html-tools');
   api.use('underscore');
   api.use('htmljs');

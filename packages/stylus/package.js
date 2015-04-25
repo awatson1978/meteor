@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:stylus",
   summary: 'Expressive, dynamic, robust CSS',
   version: "1.0.7"
 });
@@ -13,7 +14,7 @@ Package.registerBuildPlugin({
 });
 
 Package.onTest(function (api) {
-  api.use(['tinytest', 'stylus', 'test-helpers', 'templating']);
+  api.use(['clinical:tinytest', 'stylus', 'test-helpers', 'templating']);
   api.addFiles([
     'stylus_tests.html',
     'stylus_tests.styl',

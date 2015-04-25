@@ -4,7 +4,7 @@ Package.describe({
   // default splash screen loading behavior (this packages hides it
   // explicitly). In the future, there should be a better interface
   // between such packages and the build tool.
-  name: 'launch-screen',
+  name: "starrynight:launch-screen",
   summary: 'Default and customizable launch screen on mobile.',
   version: '1.0.2'
 });

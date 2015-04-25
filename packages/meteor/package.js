@@ -1,6 +1,7 @@
 // All other packages automatically depend on this one
 
 Package.describe({
+  name: "starrynight:meteor",
   summary: "Core Meteor environment",
   version: '1.1.6'
 });
@@ -48,7 +49,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use(['underscore', 'tinytest', 'test-helpers']);
+  api.use(['underscore', 'clinical:tinytest', 'test-helpers']);
 
   api.addFiles('browser_environment_test.js', 'web.browser');
   api.addFiles('client_environment_test.js', 'client');

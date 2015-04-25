@@ -2648,13 +2648,13 @@ STACK_OVERFLOW_BUG_INPUT = {
       ],
       "test-server-tests-in-console-once 1.0.1-pre.0": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "underscore",
         "ejson"
       ],
       "test-server-tests-in-console-once 1.0.1-pre.1": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "underscore",
         "ejson"
       ],
@@ -2789,7 +2789,7 @@ STACK_OVERFLOW_BUG_INPUT = {
       ],
       "test-in-console 1.0.0-cordova4": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "underscore",
         "random",
         "ejson",
@@ -2807,7 +2807,7 @@ STACK_OVERFLOW_BUG_INPUT = {
       ],
       "test-in-console 1.0.1-rc0": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "underscore",
         "random",
         "ejson",
@@ -2825,7 +2825,7 @@ STACK_OVERFLOW_BUG_INPUT = {
       ],
       "test-in-console 1.0.2-ekate": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "underscore",
         "random",
         "ejson",
@@ -2834,7 +2834,7 @@ STACK_OVERFLOW_BUG_INPUT = {
       ],
       "test-in-console 1.0.2-rc0": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "underscore",
         "random",
         "ejson",
@@ -2852,7 +2852,7 @@ STACK_OVERFLOW_BUG_INPUT = {
       ],
       "test-in-console 1.0.3-pre.0": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "underscore",
         "random",
         "ejson",
@@ -2861,7 +2861,7 @@ STACK_OVERFLOW_BUG_INPUT = {
       ],
       "test-in-console 1.0.3-pre.1": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "underscore",
         "random",
         "ejson",
@@ -3065,7 +3065,7 @@ STACK_OVERFLOW_BUG_INPUT = {
       ],
       "test-in-browser 1.0.0": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "bootstrap",
         "underscore",
         "session",
@@ -3095,7 +3095,7 @@ STACK_OVERFLOW_BUG_INPUT = {
       ],
       "test-in-browser 1.0.4-rc0": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "bootstrap",
         "underscore",
         "session",
@@ -3110,7 +3110,7 @@ STACK_OVERFLOW_BUG_INPUT = {
       ],
       "test-in-browser 1.0.4-rc1": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "bootstrap",
         "underscore",
         "session",
@@ -3140,7 +3140,7 @@ STACK_OVERFLOW_BUG_INPUT = {
       ],
       "test-in-browser 1.0.5-pre.0": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "bootstrap",
         "underscore",
         "session",
@@ -3155,7 +3155,7 @@ STACK_OVERFLOW_BUG_INPUT = {
       ],
       "test-in-browser 1.0.5-pre.1": [
         "meteor",
-        "tinytest",
+        "starrynight:tinytest",
         "bootstrap",
         "underscore",
         "session",
@@ -3580,7 +3580,7 @@ STACK_OVERFLOW_BUG_INPUT = {
         "underscore",
         "tracker",
         "ejson",
-        "tinytest",
+        "starrynight:tinytest",
         "random",
         "livedata",
         "jquery"
@@ -3590,7 +3590,7 @@ STACK_OVERFLOW_BUG_INPUT = {
         "underscore",
         "tracker",
         "ejson",
-        "tinytest",
+        "starrynight:tinytest",
         "random",
         "ddp",
         "jquery"
@@ -3610,7 +3610,7 @@ STACK_OVERFLOW_BUG_INPUT = {
         "underscore",
         "tracker",
         "ejson",
-        "tinytest",
+        "starrynight:tinytest",
         "random",
         "ddp",
         "jquery"
@@ -3620,7 +3620,7 @@ STACK_OVERFLOW_BUG_INPUT = {
         "underscore",
         "tracker",
         "ejson",
-        "tinytest",
+        "starrynight:tinytest",
         "random",
         "ddp",
         "jquery"
@@ -25537,7 +25537,7 @@ STACK_OVERFLOW_BUG_INPUT = {
     "test-server-tests-in-console-once": {
       "1.0.3-rc.0": true
     },
-    "tinytest": {
+    "starrynight:tinytest": {
       "1.0.5-rc.0": true
     },
     "tracker": {

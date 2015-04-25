@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:jsparse",
   summary: "Full-featured JavaScript parser",
   version: "1.0.3"
 });
@@ -10,7 +11,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use(['tinytest', 'underscore']);
+  api.use(['clinical:tinytest', 'underscore']);
   api.use('jsparse', 'client');
 
   api.addFiles('parser_tests.js',

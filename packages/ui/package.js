@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:ui",
   summary: "Deprecated: Use the 'blaze' package",
   version: '1.0.6'
 });

@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:logging",
   summary: "Logging facility.",
   version: '1.0.7'
 });
@@ -23,7 +24,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use(['tinytest', 'underscore', 'ejson']);
+  api.use(['clinical:tinytest', 'underscore', 'ejson']);
   api.use('logging', ['client', 'server']);
   api.addFiles('logging_test.js', ['server', 'client']);
 });

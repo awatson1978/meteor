@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:jquery-waypoints",
   summary: "Run a function when the user scrolls past an element",
   version: "1.0.3"
 });

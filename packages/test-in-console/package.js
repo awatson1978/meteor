@@ -1,11 +1,12 @@
 Package.describe({
+  name: "starrynight:test-in-console",
   summary: "Run tests noninteractively, with results going to the console.",
   version: '1.0.5'
 });
 
 Package.onUse(function (api) {
 
-  api.use(['tinytest', 'underscore', 'random', 'ejson', 'check']);
+  api.use(['clinical:tinytest', 'underscore', 'random', 'ejson', 'check']);
   api.use('http', 'server');
 
   api.export('TEST_STATUS', 'client');

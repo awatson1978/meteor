@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:reload",
   summary: "Reload the page while preserving application state.",
   version: '1.1.3'
 });
@@ -11,6 +12,6 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use(['tinytest', 'reload'], 'client');
+  api.use(['clinical:tinytest', 'reload'], 'client');
   api.addFiles('reload_tests.js', 'client');
 });

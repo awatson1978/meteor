@@ -1,4 +1,5 @@
 Package.describe({
+  name: "starrynight:ddp",
   summary: "Meteor's latency-compensated distributed data framework",
   version: '1.2.0'
 });
