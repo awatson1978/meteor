@@ -1,6 +1,7 @@
 Package.describe({
+  name: "clinical:tinytest",
   summary: "Tiny testing framework",
-  version: '1.0.5'
+  version: '1.1.1'
 });
 
 Package.onUse(function (api) {
@@ -10,6 +11,7 @@ Package.onUse(function (api) {
   api.export('Tinytest');
 
   api.addFiles('tinytest.js', ['client', 'server']);
+  api.addFiles('describe.js', ['client', 'server']);
 
   api.use('ddp', ['client', 'server']);
   api.use('mongo', ['client', 'server']);
